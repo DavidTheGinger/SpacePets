@@ -25,4 +25,11 @@ public class scr_meteor : MonoBehaviour
     {
         RotSpeed = tempRotSpeed;
     }
+
+    public void set_rotation(Vector3 rotation)
+    {
+        transform.localRotation = Quaternion.Euler(rotation);
+
+    }
+
 }

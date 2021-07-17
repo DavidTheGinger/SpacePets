@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 690438564512855596}
   - component: {fileID: 690438564512855597}
   - component: {fileID: 690438564512855598}
-  - component: {fileID: 3367145588639222464}
+  - component: {fileID: 4099542924676152750}
   m_Layer: 6
-  m_Name: Meteor
+  m_Name: Meteor_square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690438564512855595}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &690438564512855597
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeedRange: 50
---- !u!58 &3367145588639222464
+--- !u!58 &4099542924676152750
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,4 +111,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.55
