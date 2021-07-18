@@ -682,6 +682,8 @@ MonoBehaviour:
   right_hook_obj: {fileID: 0}
   left_hook_start_pos_obj: {fileID: 1779818322}
   right_hook_start_pos_obj: {fileID: 575340239}
+  debug_circle_prefab: {fileID: 3593136523034939030, guid: d39eeb06916f4004fa1b9894f4575ed2,
+    type: 3}
   range: 5
 --- !u!1 &1440980207
 GameObject:
